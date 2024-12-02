@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h2>Мои любимые породы собак</h2>
+      <h2>Dogs</h2>
       <div className="container">
         <img className='element' src={chauChau} alt="" />
         <img className='element' src={chihuahua} alt="" />
