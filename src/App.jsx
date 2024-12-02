@@ -12,15 +12,16 @@ function App() {
 
   return (
     <>
+      <h2>Мои любимые породы собак</h2>
       <div className="container">
-        <img src={chauChau} alt="" />
-        <img src={chihuahua} alt="" />
-        <img src={golden} alt="" />
-        <img src={haski} alt="" />
-        <img src={kavaler} alt="" />
-        <img src={korgi} alt="" />
-        <img src={ovcharka} alt="" />
-        <img src={shpic} alt="" />
+        <img className='element' src={chauChau} alt="" />
+        <img className='element' src={chihuahua} alt="" />
+        <img className='element' src={golden} alt="" />
+        <img className='element' src={haski} alt="" />
+        <img className='element' src={kavaler} alt="" />
+        <img className='element' src={korgi} alt="" />
+        <img className='element' src={ovcharka} alt="" />
+        <img className='element' src={shpic} alt="" />
       </div>
     </>
   )

@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: rgb(155, 155, 155);
+}
+
+.container{
+  width: 80%;
+  padding: 20px;
+  margin: 50px 175px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.element{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid rgb(65, 65, 65) ;
+}
+
+h2{
+  margin-top: 50px;
+  text-align: center;
+}
